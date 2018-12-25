@@ -1,8 +1,8 @@
 {
-  "name": "docker_web_app",
+  "name": "smart_home",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "First Last <first.last@example.com>",
+  "description": "Control and schedule home automation.",
+  "author": "Mihai Drebot <mihai.voicu.drebot@gmail.com>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
