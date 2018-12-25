@@ -1,8 +1,4 @@
-FROM resin/armv7hf-debian
-
-RUN [ "cross-build-start" ]
-
-FROM node:8
+FROM node:8.9
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -21,5 +17,3 @@ COPY . .
 
 EXPOSE 8080
 CMD [ "npm", "start" ]
-
-RUN [ "cross-build-end" ]  
